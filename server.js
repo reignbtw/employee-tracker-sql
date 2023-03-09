@@ -1,5 +1,5 @@
 //depndencies
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const { first, last } = require('rxjs');
 require('console.table');
@@ -8,11 +8,11 @@ require('console.table');
 const connection = mysql.createConnection({
     host: 'localhost',
 
-    port: 3001,
+    port: 3306,
 
     user: 'root',
-    password: 'Password_here',
-    database: 'employeeDB'
+    password: 'mysql123123!',
+    database: 'employeesDB'
 });
 
 connection.connect(function (err) {
