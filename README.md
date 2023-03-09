@@ -14,6 +14,7 @@
   clone a copy of the repository from github, run 'npm i mysql' ' npm i inquirer@8.2.4' and 'npm i console.table' once everything is installed go into your terminal and run 'node server.js' and youre done!
   ## Usage 
   n.a
+  video: https://youtu.be/D2U92btndtw
   ## License 
   This project is license under MIT
   ## Contributing 
